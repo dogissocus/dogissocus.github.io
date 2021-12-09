@@ -9,6 +9,32 @@
   gtag('js', new Date());
 
   gtag('config', 'G-V55M23FP5L');
+  function c1(){//alert('Hello C1');
+    gtag('event', 'click s1', {
+      'event_label': 's1',
+      'event_category': 'click'
+    });
+  }
+  function c2(){//alert('Hello C2');
+    gtag('event', 'click s2', {
+      'event_label': 's2',
+      'event_category': 'click'
+    });
+  }
+  function c3(){//alert('Hello C3');
+    gtag('event', 'click s3', {
+        'event_label': 's3',
+        'event_category': 'click'
+    });
+  }
+  function c4(){//alert('Hello C4');
+    gtag('event', 'click s4', {
+       
+    gtag('event', 'click s4', {
+        'event_label': 's4',
+        'event_category': 'click'
+    });
+  }
 </script>
 <title>首頁</title>
 <meta charset="UTF-8">
@@ -45,23 +71,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
       <img src="sandwich (1).jpg" alt="Sandwich" style="width:100%">
-      <h3><a href="s1.html">The Perfect Sandwich, A Real NYC Classic</a></h3>
+      <h3><a href="s1.html" onclick="c1()">The Perfect Sandwich, A Real NYC Classic</a></h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
     <div class="w3-quarter">
       <img src="steak.jpg" alt="Steak" style="width:100%">
-      <h3><a href="s2.html">Let Me Tell You About This Steak</a></h3>
+      <h3><a href="s2.html" onclick="c2()">Let Me Tell You About This Steak</a></h3>
       <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
     <div class="w3-quarter">
       <img src="cherries.jpg" alt="Cherries" style="width:100%">
-      <h3><a href="s3.html">Cherries, interrupted</a></h3>
+      <h3><a href="s3.html" onclick="c3()">Cherries, interrupted</a></h3>
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
       <p>What else?</p>
     </div>
     <div class="w3-quarter">
       <img src="wine.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3><a href="s4.html">Once Again, Robust Wine and Vegetable Pasta</a></h3>
+      <h3><a href="s4.html" onclick="c4()">Once Again, Robust Wine and Vegetable Pasta</a></h3>
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
   </div>
